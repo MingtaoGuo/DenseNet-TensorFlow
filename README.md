@@ -6,10 +6,19 @@ DenseNet is simplely implemented by TensorFlow, the flow chart of DneseNet is sh
 ![](https://github.com/MingtaoGuo/DenseNet-TensorFlow/blob/master/IMAGES/DenseNet.jpg)
 The greatest advantage of DneseNet is high accuracy and low occupancy rate of memory. This code we use the DenseNet of 40 depth for cifar10 classification, when we save the model in .ckpt, the ckpt file just cost about 2~3M, it's very slight.
 ## How to use the code 
-1. Download the cifar10 data
-2. unzip the cifar10 data, and put them into the folder 'cifar10'
-
-
+1. Download the cifar10 data, [cifar10 address](http://www.cs.toronto.edu/~kriz/cifar-10-matlab.tar.gz)
+2. Unzip the cifar10 data, and put them into the folder 'cifar10'
+```
+├── cifar10
+     ├── data_batch_1.mat
+     ├── data_batch_2.mat
+     ├── data_batch_3.mat
+     ├── data_batch_4.mat
+     ├── data_batch_5.mat
+     ├── test_batch.mat
+     ...
+```
+3. Execute main.py
 ## Results
 |Loss|Training accuracy|Validation accuracy|
 |-|-|-|
