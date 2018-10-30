@@ -28,8 +28,8 @@ The greatest advantage of DneseNet is high accuracy and low occupancy rate of me
 
 ========================
 ## Results
-|Loss|Training accuracy|Validation accuracy|
+|Loss|Training error|Validation error|
 |-|-|-|
-|![](https://github.com/MingtaoGuo/DenseNet-TensorFlow/blob/master/IMAGES/loss.jpg)|![](https://github.com/MingtaoGuo/DenseNet-TensorFlow/blob/master/IMAGES/training_acc.jpg)|![](https://github.com/MingtaoGuo/DenseNet-TensorFlow/blob/master/IMAGES/validation_acc.jpg)|
+|![](https://github.com/MingtaoGuo/DenseNet-TensorFlow/blob/master/IMAGES/loss.jpg)|![](https://github.com/MingtaoGuo/DenseNet-TensorFlow/blob/master/IMAGES/training_error.jpg)|![](https://github.com/MingtaoGuo/DenseNet-TensorFlow/blob/master/IMAGES/validation_error.jpg)|
 
 This experiment we don't use data augmentation, and just train 100 epoches, It doesn't seem to have converged yet. In original paper, 40 depth DenseNet test error is 7%, which is 3 percentage points lower than this code. Due to the poor device, i don't try to train the DenseNet for 300 epoches like the paper. I will very appreciate if somebody can run the code for 300 epoches.
