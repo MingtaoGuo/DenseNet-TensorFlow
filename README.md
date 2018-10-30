@@ -19,6 +19,14 @@ The greatest advantage of DneseNet is high accuracy and low occupancy rate of me
      ...
 ```
 3. Execute main.py
+## Python packages
+========================
+1. python3.5
+2. tensorflow 1.4.0
+3. numpy
+4. scipy
+
+========================
 ## Results
 |Loss|Training accuracy|Validation accuracy|
 |-|-|-|
