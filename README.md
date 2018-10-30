@@ -5,6 +5,10 @@ DenseNet for cifar10
 DenseNet is simplely implemented by TensorFlow, the flow chart of DneseNet is shown in follow figure.
 ![](https://github.com/MingtaoGuo/DenseNet-TensorFlow/blob/master/IMAGES/DenseNet.jpg)
 The greatest advantage of DneseNet is high accuracy and low occupancy rate of memory. This code we use the DenseNet of 40 depth for cifar10 classification, when we save the model in .ckpt, the ckpt file just cost about 2~3M, it's very slight.
+## How to use the code 
+1. Download the cifar10 data
+2. unzip the cifar10 data, and put them into the folder 'cifar10'
+
 
 ## Results
 |Loss|Training accuracy|Validation accuracy|
